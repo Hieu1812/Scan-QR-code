@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import *
 from pyzbar.pyzbar import decode
 from PyQt5.QtCore import Qt
 import pyautogui
-import time
 
 class MyGui(QMainWindow):
     def __init__(self):
